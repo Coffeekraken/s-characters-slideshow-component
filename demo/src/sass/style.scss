@@ -1,0 +1,15 @@
+@import 'node_modules/coffeekraken-sugar/index';
+@import 'node_modules/coffeekraken-s-typography-component/index';
+
+@include s-setup(());
+@include s-init();
+@include s-classes();
+@include s-typography-classes();
+
+body {
+	padding: s-space(bigger);
+}
+
+s-icon svg path {
+  fill: currentColor;
+}

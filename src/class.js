@@ -1,0 +1,2 @@
+import SCharactersSlideshowComponent from "./js/SCharactersSlideshowComponent"
+export default SCharactersSlideshowComponent
