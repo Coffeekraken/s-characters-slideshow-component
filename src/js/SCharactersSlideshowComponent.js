@@ -1,6 +1,14 @@
 import SWebComponent from "coffeekraken-sugar/js/core/SWebComponent"
 import STimer from "coffeekraken-sugar/js/classes/STimer"
 
+/**
+ * Create a nice "slideshow" of sentences with a cool "split flap" random characters like effect
+ *
+ * @example    html
+ * <s-characters-slideshow values="['Hello World','How are you universe']"></s-characters-slideshow>
+ *
+ * @author    Olivier Bossel <olivier.bossel@gmail.com> (https://olivierbossel.com)
+ */
 export default class SCharactersSlideshowComponent extends SWebComponent {
   /**
    * Default props
@@ -21,7 +29,6 @@ export default class SCharactersSlideshowComponent extends SWebComponent {
        * @prop
        * @type    {Array<String>}
        */
-      // eslint-disable-next-line
       characters: "+*/#%&§?-_",
 
       /**
