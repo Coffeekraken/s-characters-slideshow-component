@@ -1,7 +1,7 @@
 {
   "name": "coffeekraken-s-characters-slideshow-component",
   "version": "1.0.0",
-  "description": "Easily integrate icons using various driver like \"img\", \"fonticon\", \"svg\", \"fontawesome\", \"material\" and \"foundation\"",
+  "description": "Create a nice \"slideshow\" of sentences with a cool \"split flap\" random characters like effect",
   "main": "dist/index.js",
   "homepage": "http://coffeekraken.io",
   "repository": {
@@ -52,6 +52,9 @@
   "keywords": [
     "characters",
     "slideshow",
+    "split",
+    "flap",
+    "effect",
     "webcomponent",
     "component",
     "html",

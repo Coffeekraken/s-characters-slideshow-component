@@ -207,16 +207,21 @@
   width: 100%;
 }
 
-.clearfix, .clearfix-micro {
+.clearfix,
+.clearfix-micro {
   zoom: 1;
 }
 
-.clearfix:before, .clearfix-micro:before, .clearfix:after, .clearfix-micro:after {
+.clearfix:before,
+.clearfix-micro:before,
+.clearfix:after,
+.clearfix-micro:after {
   content: " ";
   display: table;
 }
 
-.clearfix:after, .clearfix-micro:after {
+.clearfix:after,
+.clearfix-micro:after {
   clear: both;
 }
 
@@ -2239,7 +2244,8 @@
 	 */
 }
 
-.clearfix, .clearfix-micro {
+.clearfix,
+.clearfix-micro {
   /**
 	 * @name 		```.clearfix```
 	 * Apply the micro clearfix on the element
@@ -2297,7 +2303,7 @@
 }
 
 .ratio-21-9:before {
-  content: '';
+  content: "";
   display: block;
   height: 0;
   padding-top: 42.85714%;
@@ -2316,7 +2322,7 @@
 }
 
 .ratio-16-9:before {
-  content: '';
+  content: "";
   display: block;
   height: 0;
   padding-top: 56.25%;
@@ -2335,7 +2341,7 @@
 }
 
 .ratio-4-3:before {
-  content: '';
+  content: "";
   display: block;
   height: 0;
   padding-top: 75%;
@@ -2354,7 +2360,7 @@
 }
 
 .ratio-1-1:before {
-  content: '';
+  content: "";
   display: block;
   height: 0;
   padding-top: 100%;
@@ -2373,7 +2379,9 @@
 	 */
 }
 
-.no-transitions, .no-transitions:before, .no-transitions:after {
+.no-transitions,
+.no-transitions:before,
+.no-transitions:after {
   transition: none !important;
 }
 
@@ -2390,8 +2398,12 @@
 	 */
 }
 
-.clear-transitions, .clear-transitions:before, .clear-transitions:after,
-.clear-transitions *, .clear-transitions *:before, .clear-transitions *:after {
+.clear-transitions,
+.clear-transitions:before,
+.clear-transitions:after,
+.clear-transitions *,
+.clear-transitions *:before,
+.clear-transitions *:after {
   transition: none !important;
 }
 
@@ -2408,7 +2420,9 @@
 	 */
 }
 
-.no-animations, .no-animations:before, .no-animations:after {
+.no-animations,
+.no-animations:before,
+.no-animations:after {
   animation: none !important;
 }
 
@@ -2425,8 +2439,12 @@
 	 */
 }
 
-.clear-animations, .clear-animations:before, .clear-animations:after,
-.clear-animations *, .clear-animations *:before, .clear-animations *:after {
+.clear-animations,
+.clear-animations:before,
+.clear-animations:after,
+.clear-animations *,
+.clear-animations *:before,
+.clear-animations *:after {
   animation: none !important;
 }
 
@@ -2443,7 +2461,9 @@
 	 */
 }
 
-.no-transmations, .no-transmations:before, .no-transmations:after {
+.no-transmations,
+.no-transmations:before,
+.no-transmations:after {
   transition: none !important;
   animation: none !important;
 }
@@ -2461,8 +2481,12 @@
 	 */
 }
 
-.clear-transmations, .clear-transmations:before, .clear-transmations:after,
-.clear-transmations *, .clear-transmations *:before, .clear-transmations *:after {
+.clear-transmations,
+.clear-transmations:before,
+.clear-transmations:after,
+.clear-transmations *,
+.clear-transmations *:before,
+.clear-transmations *:after {
   transition: none !important;
   animation: none !important;
 }
@@ -2933,7 +2957,87 @@
  * - ```.blockquote```, ```.tf blockquote```
  * @author 		Olivier Bossel <olivier.bossel@gmail.com>
  */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -2942,7 +3046,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -2950,21 +3064,25 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after {
-  content: '';
+blockquote:before,
+blockquote:after {
+  content: "";
   content: none;
 }
 
-q:before, q:after {
-  content: '';
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -3042,7 +3160,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -3051,7 +3171,7 @@ a {
 }
 
 html {
-  font-size: 14Px;
+  font-size: 14px;
   color: #848e91;
   font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-weight: normal;
@@ -4552,37 +4672,55 @@ body {
 }
 
 h1.vr,
-.vr h1, h2.vr,
-.vr h2, h3.vr,
-.vr h3, h4.vr,
-.vr h4, h5.vr,
-.vr h5, h6.vr,
+.vr h1,
+h2.vr,
+.vr h2,
+h3.vr,
+.vr h3,
+h4.vr,
+.vr h4,
+h5.vr,
+.vr h5,
+h6.vr,
 .vr h6,
 .h1.vr,
-.vr
-.h1, .h2.vr,
-.vr .h2, .h3.vr,
-.vr .h3, .h4.vr,
-.vr .h4, .h5.vr,
-.vr .h5, .h6.vr,
+.vr .h1,
+.h2.vr,
+.vr .h2,
+.h3.vr,
+.vr .h3,
+.h4.vr,
+.vr .h4,
+.h5.vr,
+.vr .h5,
+.h6.vr,
 .vr .h6 {
   margin-bottom: 1rem;
 }
 
 h1.vr:last-child,
-.vr h1:last-child, h2.vr:last-child,
-.vr h2:last-child, h3.vr:last-child,
-.vr h3:last-child, h4.vr:last-child,
-.vr h4:last-child, h5.vr:last-child,
-.vr h5:last-child, h6.vr:last-child,
+.vr h1:last-child,
+h2.vr:last-child,
+.vr h2:last-child,
+h3.vr:last-child,
+.vr h3:last-child,
+h4.vr:last-child,
+.vr h4:last-child,
+h5.vr:last-child,
+.vr h5:last-child,
+h6.vr:last-child,
 .vr h6:last-child,
 .h1.vr:last-child,
-.vr
-.h1:last-child, .h2.vr:last-child,
-.vr .h2:last-child, .h3.vr:last-child,
-.vr .h3:last-child, .h4.vr:last-child,
-.vr .h4:last-child, .h5.vr:last-child,
-.vr .h5:last-child, .h6.vr:last-child,
+.vr .h1:last-child,
+.h2.vr:last-child,
+.vr .h2:last-child,
+.h3.vr:last-child,
+.vr .h3:last-child,
+.h4.vr:last-child,
+.vr .h4:last-child,
+.h5.vr:last-child,
+.vr .h5:last-child,
+.h6.vr:last-child,
 .vr .h6:last-child {
   margin-bottom: 0;
 }
@@ -4628,13 +4766,15 @@ h1.vr:last-child,
 }
 
 p.vr,
-.vr p, .p.vr,
+.vr p,
+.p.vr,
 .vr .p {
   margin-bottom: 1rem;
 }
 
 p.vr:last-child,
-.vr p:last-child, .p.vr:last-child,
+.vr p:last-child,
+.p.vr:last-child,
 .vr .p:last-child {
   margin-bottom: 0;
 }
@@ -4752,7 +4892,7 @@ p.vr:last-child,
 
 .small,
 .tf small {
-  font-size: .65em;
+  font-size: 0.65em;
 }
 
 .strong,
@@ -4924,45 +5064,65 @@ p.vr:last-child,
 }
 
 dl.vr,
-.vr dl, ul.vr,
-.vr ul, ol.vr,
+.vr dl,
+ul.vr,
+.vr ul,
+ol.vr,
 .vr ol,
 .dl.vr,
-.vr
-.dl, .ul.vr,
-.vr .ul, .ol.vr,
+.vr .dl,
+.ul.vr,
+.vr .ul,
+.ol.vr,
 .vr .ol {
   margin-bottom: 1rem;
 }
 
 dl.vr:last-child,
-.vr dl:last-child, ul.vr:last-child,
-.vr ul:last-child, ol.vr:last-child,
+.vr dl:last-child,
+ul.vr:last-child,
+.vr ul:last-child,
+ol.vr:last-child,
 .vr ol:last-child,
 .dl.vr:last-child,
-.vr
-.dl:last-child, .ul.vr:last-child,
-.vr .ul:last-child, .ol.vr:last-child,
+.vr .dl:last-child,
+.ul.vr:last-child,
+.vr .ul:last-child,
+.ol.vr:last-child,
 .vr .ol:last-child {
   margin-bottom: 0;
 }
 
-dl.vr dl, dl.vr ul, dl.vr ol,
-dl.vr .dl, dl.vr .ul, dl.vr .ol,
+dl.vr dl,
+dl.vr ul,
+dl.vr ol,
+dl.vr .dl,
+dl.vr .ul,
+dl.vr .ol,
 .vr dl dl,
 .vr dl ul,
 .vr dl ol,
 .vr dl .dl,
 .vr dl .ul,
-.vr dl .ol, ul.vr dl, ul.vr ul, ul.vr ol,
-ul.vr .dl, ul.vr .ul, ul.vr .ol,
+.vr dl .ol,
+ul.vr dl,
+ul.vr ul,
+ul.vr ol,
+ul.vr .dl,
+ul.vr .ul,
+ul.vr .ol,
 .vr ul dl,
 .vr ul ul,
 .vr ul ol,
 .vr ul .dl,
 .vr ul .ul,
-.vr ul .ol, ol.vr dl, ol.vr ul, ol.vr ol,
-ol.vr .dl, ol.vr .ul, ol.vr .ol,
+.vr ul .ol,
+ol.vr dl,
+ol.vr ul,
+ol.vr ol,
+ol.vr .dl,
+ol.vr .ul,
+ol.vr .ol,
 .vr ol dl,
 .vr ol ul,
 .vr ol ol,
@@ -4975,34 +5135,38 @@ ol.vr .dl, ol.vr .ul, ol.vr .ol,
 .dl.vr .dl,
 .dl.vr .ul,
 .dl.vr .ol,
-.vr
-.dl dl,
-.vr
-.dl ul,
-.vr
-.dl ol,
-.vr
-.dl .dl,
-.vr
-.dl .ul,
-.vr
-.dl .ol, .ul.vr dl, .ul.vr ul, .ul.vr ol,
-.ul.vr .dl, .ul.vr .ul, .ul.vr .ol,
+.vr .dl dl,
+.vr .dl ul,
+.vr .dl ol,
+.vr .dl .dl,
+.vr .dl .ul,
+.vr .dl .ol,
+.ul.vr dl,
+.ul.vr ul,
+.ul.vr ol,
+.ul.vr .dl,
+.ul.vr .ul,
+.ul.vr .ol,
 .vr .ul dl,
 .vr .ul ul,
 .vr .ul ol,
 .vr .ul .dl,
 .vr .ul .ul,
-.vr .ul .ol, .ol.vr dl, .ol.vr ul, .ol.vr ol,
-.ol.vr .dl, .ol.vr .ul, .ol.vr .ol,
+.vr .ul .ol,
+.ol.vr dl,
+.ol.vr ul,
+.ol.vr ol,
+.ol.vr .dl,
+.ol.vr .ul,
+.ol.vr .ol,
 .vr .ol dl,
 .vr .ol ul,
 .vr .ol ol,
 .vr .ol .dl,
 .vr .ol .ul,
 .vr .ol .ol {
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .dt,
@@ -5117,14 +5281,14 @@ ol.vr .dl, ol.vr .ul, ol.vr .ol,
 .tf caption,
 .tf figcaption {
   font-style: italic;
-  font-size: .65em;
+  font-size: 0.65em;
   display: block;
 }
 
 .caption,
 .figcaption .tf caption,
 .tf figcaption {
-  opacity: .65;
+  opacity: 0.65;
 }
 
 /**
@@ -5157,7 +5321,7 @@ ol.vr .dl, ol.vr .ul, ol.vr .ol,
 .blockquote cite,
 .tf quote cite,
 .tf blockquote cite {
-  font-size: .5em;
+  font-size: 0.5em;
   font-style: italic;
   display: block;
   margin-top: 1rem;
@@ -5173,28 +5337,22 @@ ol.vr .dl, ol.vr .ul, ol.vr .ol,
 .quote.vr,
 .vr .quote,
 .blockquote.vr,
-.vr
-.blockquote,
+.vr .blockquote,
 quote.vr,
-.vr
-quote,
+.vr quote,
 blockquote.vr,
-.vr
-blockquote {
+.vr blockquote {
   margin-bottom: 1rem;
 }
 
 .quote.vr:last-child,
 .vr .quote:last-child,
 .blockquote.vr:last-child,
-.vr
-.blockquote:last-child,
+.vr .blockquote:last-child,
 quote.vr:last-child,
-.vr
-quote:last-child,
+.vr quote:last-child,
 blockquote.vr:last-child,
-.vr
-blockquote:last-child {
+.vr blockquote:last-child {
   margin-bottom: 0;
 }
 
@@ -5205,7 +5363,8 @@ blockquote:last-child {
   position: relative;
 }
 
-.quote:before, .quote:after,
+.quote:before,
+.quote:after,
 .blockquote:before,
 .blockquote:after,
 .tf blockquote:before,
@@ -5214,7 +5373,7 @@ blockquote:last-child {
 .tf quote:after {
   display: inline-block;
   position: absolute;
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .quote:before,
@@ -5237,8 +5396,4 @@ blockquote:last-child {
 
 body {
   padding: 3rem;
-}
-
-s-icon svg path {
-  fill: currentColor;
 }

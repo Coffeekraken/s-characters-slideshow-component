@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="dist/css/style.css" />
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <h1 class="h1 m-b"><s-characters-slideshow></s-characters-slideshow></h1>
+    <h2 class="h2">
+      <s-characters-slideshow
+        characters="#"
+        timeout="2000"
+        duration="300"
+        values="['Hi their!','How are you today?','I\'m fine thanks and you?']"
+      ></s-characters-slideshow>
+    </h2>
 
-  <s-characters-slideshow></s-characters-slideshow>
-  <br>
-  <s-characters-slideshow characters="#" timeout="2000" duration="300" values="['Hi their!','How are you today?','I\'m fine thanks and you?']"></s-characters-slideshow>
-
-	<script src="dist/js/app.js"></script>
-</body>
+    <script src="dist/js/app.js"></script>
+  </body>
 </html>
