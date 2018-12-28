@@ -168,6 +168,14 @@ function _setPrototypeOf(o, p) {
   return _setPrototypeOf(o, p)
 }
 
+/**
+ * Create a nice "slideshow" of sentences with a cool "split flap" random characters like effect
+ *
+ * @example    html
+ * <s-characters-slideshow values="['Hello World','How are you universe']"></s-characters-slideshow>
+ *
+ * @author    Olivier Bossel <olivier.bossel@gmail.com> (https://olivierbossel.com)
+ */
 var SCharactersSlideshowComponent =
   /*#__PURE__*/
   (function(_SWebComponent) {
@@ -512,7 +520,6 @@ var SCharactersSlideshowComponent =
                * @prop
                * @type    {Array<String>}
                */
-              // eslint-disable-next-line
               characters: "+*/#%&§?-_",
 
               /**
