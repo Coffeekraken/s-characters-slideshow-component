@@ -29,6 +29,8 @@
 
 Create a nice "slideshow" of sentences with a cool "split flap" random characters like effect
 
+[![View demo](http://components.coffeekraken.io/assets/img/view-demo.png)](http://components.coffeekraken.io/app/s-characters-slideshow-component)
+
 ![Preview](/.resources/preview.gif)
 
 ## Table of content
