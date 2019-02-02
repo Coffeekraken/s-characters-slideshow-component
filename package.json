@@ -1,6 +1,6 @@
 {
   "name": "coffeekraken-s-characters-slideshow-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a nice \"slideshow\" of sentences with a cool \"split flap\" random characters like effect",
   "main": "dist/index.js",
   "homepage": "http://coffeekraken.io",
@@ -79,8 +79,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "coffeekraken-sugar": "^1.0.34",
-    "coffeekraken-s-typography-component": "^1.0.1"
+    "coffeekraken-s-typography-component": "^1.0.1",
+    "coffeekraken-sugar": "^1.0.56"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",

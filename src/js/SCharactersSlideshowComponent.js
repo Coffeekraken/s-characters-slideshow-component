@@ -150,7 +150,7 @@ export default class SCharactersSlideshowComponent extends SWebComponent {
    */
   next() {
     // handle loop property
-    if (this._currentSlideIdx + 1 >= this.values.length && !this.props.loop) {
+    if (this._currentSlideIdx + 1 >= this.props.values.length && !this.props.loop) {
       // stop
       this.stop()
       // stop here
@@ -160,7 +160,7 @@ export default class SCharactersSlideshowComponent extends SWebComponent {
     const fromSentence = this.props.values[this._currentSlideIdx]
     // update the currentSlideIdx
     this._currentSlideIdx =
-      this._currentSlideIdx + 1 >= this.values.length
+      this._currentSlideIdx + 1 >= this.props.values.length
         ? 0
         : this._currentSlideIdx + 1
     // get the "to" sentence
